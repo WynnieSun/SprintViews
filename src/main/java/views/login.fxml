@@ -28,17 +28,6 @@
         </items>
       </SplitPane>
    </top>
-   <bottom>
-      <Pane prefHeight="67.0" prefWidth="600.0" BorderPane.alignment="CENTER">
-         <children>
-            <Button layoutX="488.0" layoutY="7.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Login">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-         </children>
-      </Pane>
-   </bottom>
    <center>
       <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
@@ -84,4 +73,26 @@
          </children>
       </Pane>
    </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label opacity="0.0" text="Wrong Username or Password ! Please Try Again !">
+               <HBox.margin>
+                  <Insets left="40.0" top="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Login">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="130.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
 </BorderPane>
